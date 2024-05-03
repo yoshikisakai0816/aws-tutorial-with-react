@@ -10,7 +10,7 @@ Amplify.configure(awsExports);
 
 function Box(props) {
   const ref = useRef();
-  const [clicked, setCliked] = useState(false)
+  const [clicked, setClicked] = useState(false)
 
   useFrame(() => ref.current.rotation.x += 0.01)
 
@@ -18,7 +18,7 @@ function Box(props) {
     <mesh {...props}
     ref={ref}
     castShadow receiveShadow
-    onClick={() => setCliked(!clicked)}
+    onClick={() => setClicked(!clicked)}
     scale={clicked ? 2 : 1 }>
       <boxGeometry args={[1, 1, 1]} />
       <meshStandardMaterial color={"orange"}/>
@@ -42,7 +42,6 @@ function App({ signOut, user }) {
         </Canvas>
       </div>
       <h1>Box Color</h1>
-      <a href=''>もっと見る</a>
     </>
   );
 }

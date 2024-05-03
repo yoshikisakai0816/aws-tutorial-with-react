@@ -16,10 +16,6 @@ body #root {
   );
 }
 
-body {
-  background: #f0f0f0;
-}
-
 #canvas-container {
   height: 100%;
   width: 100%;
