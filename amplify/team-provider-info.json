@@ -16,5 +16,23 @@
         "awstutorialwithreact5f6c3497": {}
       }
     }
+  },
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-awstutorialwithreact-staging-b6c65-authRole",
+      "UnauthRoleArn": "arn:aws:iam::339712760633:role/amplify-awstutorialwithreact-staging-b6c65-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::339712760633:role/amplify-awstutorialwithreact-staging-b6c65-authRole",
+      "Region": "ap-northeast-1",
+      "DeploymentBucketName": "amplify-awstutorialwithreact-staging-b6c65-deployment",
+      "UnauthRoleName": "amplify-awstutorialwithreact-staging-b6c65-unauthRole",
+      "StackName": "amplify-awstutorialwithreact-staging-b6c65",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:339712760633:stack/amplify-awstutorialwithreact-staging-b6c65/c9910cd0-0b8f-11ef-9995-06eb12367fc9",
+      "AmplifyAppId": "d2pqp2ssc5dtmu"
+    },
+    "categories": {
+      "auth": {
+        "awstutorialwithreact5f6c3497": {}
+      }
+    }
   }
 }

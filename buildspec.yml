@@ -1,5 +1,0 @@
-version: 0.2
-phases:
-  pre_build:
-    commands:
-      - amplify pull --appId d39ikuk5ugz2df --envName staging --yes
